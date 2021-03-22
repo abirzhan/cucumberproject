@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2946703400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepsDefinitions.Set_SkyBlue_Background_button_exist()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3730016100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.beforeRun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "validate-the-background-color-will-change-to-sky-blue;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 406049600,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat steps.StepsDefinitions.user_click_on(StepsDefinitions.java:42)\r\n\tat ✽.When User click on \"Set SkyBlue Background\" button(features/SkyBlueBackground.feature:10)\r\n",
+              "status": "pending"
+            },
+            "line": 10,
+            "name": "User click on \"Set SkyBlue Background\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 15
+                }
+              ],
+              "location": "StepsDefinitions.user_click_on(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepsDefinitions.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the background color will change to sky blue",
+    "description": "",
+    "id": "validate-the-background-color-will-change-to-sky-blue",
+    "keyword": "Feature",
+    "uri": "features/SkyBlueBackground.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ChangeBackground"
+      }
+    ]
+  }
+]
